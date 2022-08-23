@@ -1,10 +1,9 @@
+import Navbar from "../Components/Navbar/Navbar"
 const index = () => {
   return (
-    <>
-      <h1 className="text-3xl text-red-500">
-        Hello world!
-      </h1>
-    </>
+    <div style={{ minHeight: "100vh", backgroundColor: "white" }}>
+      <Navbar />
+    </div>
   );
 };
 
