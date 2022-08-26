@@ -1,9 +1,15 @@
 import { useRouter } from "next/router";
 import errorPage from "./images/404-page.webp";
 import Image from "next/Image"
+import { useEffect } from "react";
 
 const Error = () => {
-    const router = useRouter()
+    const router = useRouter();
+    useEffect(() => {
+        setTimeout(() => {
+            router.push('/')
+        }, 3000)
+    }, [])
     return (
         <div className="container text-center">
             <div>
