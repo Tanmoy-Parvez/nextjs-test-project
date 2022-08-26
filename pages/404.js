@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import errorPage from "./images/404-page.webp";
+import errorPage from "../public/images/404-page.webp";
 import Image from "next/Image"
 import { useEffect } from "react";
 
