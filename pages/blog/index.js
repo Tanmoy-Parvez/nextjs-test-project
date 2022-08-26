@@ -17,7 +17,7 @@ const Blog = () => {
                 <title>Next.JS Project-Blogs</title>
             </Head>
             <Navbar />
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4">
                 {
                     posts.slice(0, 10).map(post =>
                         <div className="card w-[100%] bg-base-100 shadow-xl" key="post.id" >
